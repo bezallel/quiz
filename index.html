@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css">
+    <link rel="stylesheet" href="../static/styles/quiz.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="{{ url_for('index') }}" class="logo">Ṡiḅi</a>
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Quiz in Session.</h1>
+                    <div class="quiz-header">
+                        <span class="header-score">Score: 0 / 30</span>
+                    </div>
+
+                    <h2 class="question-text">which of these is the correct translation for: 'you don chop breakfast before?'</h2>
+
+                    <div class="option-list">
+                        <!-- <div class="option">
+                            <span>A. Have you already eaten?</span>
+                        </div>
+                        <div class="option">
+                            <span>B. Did you already organize your breakfast?</span>
+                        </div>
+                        <div class="option">
+                            <span>C. Ever been broken hearted?</span>
+                        </div>
+                        <div class="option">
+                            <span>D. Have you witnessed disaster before?</span>
+                        </div> -->
+                    </div>
+                    <div class="quiz-footer">
+                        <span class="question-total">1 of 30 Questions</span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h2>Result!</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+
+                        <span class="score-text">You scored 0 out of 30</span>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Try Again</button>
+                        <button class="goHome-btn">Go Home</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="home">
+                <div class="home-content">
+                    <h1>Knowledge Check...</h1>
+                    <p>Welcome! Ready to tackle the quiz with confidence? That's the spirit! <br>Throughout the quiz, we'll be covering all the categories. <br>This is your moment to shine and flaunt your Pidgin prowess. <br>Okay, enough chit-chat. Let's dive right in and get started!</p>
+                    <button class="start-btn">Start Quiz</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer id="author">
+        <p>&copy; 2023 Project Ṡiḅi | All Rights Reserved | Designed by Peace Edogun.</p>
+      </footer>
+
+    <div class="guide-info">
+        <h2>Before you begin!</h2>
+        <span class="info" style="color: rgb(249, 249, 249); align-items:center"><br>1. Upon completion of the quiz, you may return to the chat area by clicking the Sibi logo in the quiz home page.<br><br>2. You chose to start the quiz. Make sure you finish before returning to the chat area and don't chicken out... mmmkay?<br><br>Goodluck!</span>
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Exit Quiz</button>
+            <a href="#" class="info-btn continue-btn">Continue</a>
+        </div>
+    </div>
+    <div class="percentage-container">
+        <div class="circular-progress" id="progress">
+            
+        </div>
+        <div class="progress-value">0%</div>
+    </div>
+        <script src="../static/js/quiz.js"></script>
+        <script src="../static/js/questions.js"></script>
+</body>
+</html>
