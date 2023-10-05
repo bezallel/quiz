@@ -36,7 +36,7 @@ body{
 }
 .main {
     min-height: 100vh;
-    background: url(../images/quimage4.jpg);
+    background: url(./quimage4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -213,7 +213,7 @@ body{
     position: relative;
     left: -50%;
     width: 100%;
-    background: url(../images/quimage2.jpg);
+    background: url(./quimage2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -472,7 +472,7 @@ body{
     }
     .main {
         min-height: 100vh;
-        background: url(../images/quimage4.jpg);
+        background: url(./quimage2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -548,7 +548,7 @@ body{
         position: relative;
         left: -50%;
         width: 100%;
-        background: url(../images/quimage2.jpg);
+        background: url(./quimage4.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -812,7 +812,7 @@ body{
     }
     .main {
         min-height: 100vh;
-        background: url(../images/quimage4.jpg);
+        background: url(./quimage4.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -888,7 +888,7 @@ body{
         position: relative;
         left: -50%;
         width: 100%;
-        background: url(../images/quimage2.jpg);
+        background: url(./quimage2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
